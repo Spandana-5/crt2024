@@ -1,0 +1,25 @@
+finding the share for ecah one
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    int r= a*(b)/100;
+    printf("%d\n",r);
+    int r1=( a-r)*(c)/100;
+    printf("%d\n",r1);
+    int r3=(a-r-r1)/3;
+    printf("%d",r3);
+    
+    
+    
+    
+    
+    
+    return 0;
+}
