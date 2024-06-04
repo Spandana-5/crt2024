@@ -1,0 +1,10 @@
+reading integer values and printing the character
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("%c",n);
+    return 0;
+    
+}
