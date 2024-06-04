@@ -1,0 +1,18 @@
+finding the ceil and floor values
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    float a;
+    scanf("%f",&a);
+    int r=(int)a;
+    printf("%d\n",r);
+    printf("%.1f\n",ceil(a));
+    printf("%.1f",floor(a));
+    return 0;
+}
