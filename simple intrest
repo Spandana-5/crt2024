@@ -1,0 +1,22 @@
+calculating simple intrest
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int p,t,r;
+    scanf("%d%d%d",&p,&t,&r);
+    float itrst=(p*t*r)/100;
+    printf("%.2f\n",itrst);
+    float amount=p+itrst;
+    printf("%.2f\n",amount);
+    float dis=(itrst)*2/100;
+    printf("%.2f\n",dis);
+    float fin= amount-dis;
+    printf("%.2f",fin);
+    
+    return 0;
+}
