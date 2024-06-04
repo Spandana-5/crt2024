@@ -1,0 +1,11 @@
+comparing the largest of 2 characters
+
+#include<stdio.h>
+int main()
+{
+char a ,b;
+scanf("%c%c",&a,&b);
+fflush(stdin);
+scanf("%c",&a);
+return 0;
+}
