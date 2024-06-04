@@ -1,0 +1,24 @@
+area calaculation 
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    
+    
+    int s,l,b;
+    float a;
+    scanf("%d%d%d%f",&s,&l,&b,&a);
+    int area=s*s;
+    printf("%d\n",area);
+    int rec=l*b;
+    printf("%d\n",rec);
+    float c=3.14*a*a;
+    printf("%.2f",c);
+    
+    
+    return 0;
+}
