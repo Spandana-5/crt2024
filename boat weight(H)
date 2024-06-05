@@ -1,0 +1,23 @@
+finding that boat will be stable or drown
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    int n=b*75+c*30;
+    
+    if(n<=a){
+        printf("Boat is stable");
+    }
+    else{
+        printf("Boat will drown");
+    }
+    
+    return 0;
+}
