@@ -1,0 +1,24 @@
+finding the sum and product
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int r1=a+b;
+    
+    int r=a*b;
+    
+    if(r>1000){
+        printf("%d",r1);
+    }
+    else{
+        printf("%d",r);
+    }
+    
+    return 0;
+}
