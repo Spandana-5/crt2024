@@ -1,0 +1,21 @@
+finding the student code
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int n;
+    scanf("%d",&n);
+    if(n>=100&&n<=200){
+        
+    
+    int r=n/4;
+    
+    printf("%d\n%d\n%d\n%d\n",r,r,r,r+n%4);
+    }
+    else{
+        printf("INVALID INPUT");
+    }
