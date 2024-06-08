@@ -1,0 +1,17 @@
+armstrong number is a number where the number is equal to sum of digits
+#include <stdio.h>
+
+
+int main() {
+    int n,rem,s=0;
+    scanf("%d",&n);
+    while(n>=1){
+        rem=n%10;
+        n=n/10;
+        s=s+rem;
+        
+    }
+    printf("%d",s);
+}
+    
+    
