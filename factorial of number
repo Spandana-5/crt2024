@@ -1,0 +1,17 @@
+finding the factorial of given number
+#include <stdio.h>
+
+int main() {
+    int n,f=1;
+    scanf("%d",&n);
+    while(n>=1){
+f=f*n;
+n=n-1;
+
+        
+    }
+    printf("%d",f);
+    
+
+    return 0;
+}
