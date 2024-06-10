@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int n;
+    scanf("%d",&n);
+    for(int row=n;row>=1;row--){
+        int totsp=n-row;
+        for(int s=1;s<=totsp;s++){
+            printf(" ");
+        }
+        for(int col=1;col<=row;col++){
+            printf("*");
+        }
+
+    printf("\n");
+    }
+}
+
